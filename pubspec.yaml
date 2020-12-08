@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: ^0.6.0+9
+  image_picker:
+    git:
+      url: https://gitee.com/junf_hz/plugins
+      path: packages/image_picker/image_picker
+      ref: image_picker_0.6.7+15
 
 dev_dependencies:
   flutter_test:
